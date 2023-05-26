@@ -1,3 +1,9 @@
+# This is my Personal portfolio
+
+# Go and check out  my portfolio 
+
+https://bijoyportfolio.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
