@@ -1,0 +1,124 @@
+.container {
+    height: 100vh;
+    overflow-y: scroll;
+  
+    .text-zone {
+      margin-left: 30px;
+      position: absolute;
+      left: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 40%;
+  
+      @media screen and (max-width: 1200px) {
+        position: initial;
+        width: 100%;
+        transform: none;
+        padding-right: 65px;
+        box-sizing: border-box;
+        margin-left: 45px;
+      }
+  
+      @media screen and (max-width: 600px) {
+        position: initial;
+        width: 90%;
+        left: 5%;
+        transform: none;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 0 auto;
+      }
+  
+    //   h1 {
+    //     margin: 16px;
+    //     margin-left: -50px;
+    //     color: #fff;
+    //     font-size: 56px;
+    //     line-height: 50px;
+    //     font-family: 'Coolvetica';
+    //     font-weight: 400;
+  
+    //     &:before {
+    //       content: '';
+    //       display: block;
+    //       width: 150px;
+    //       height: 4px;
+    //       background: #ffd700;
+    //       margin-bottom: 10px;
+    //     }
+  
+    //     &:after {
+    //       content: '';
+    //       display: block;
+    //       width: 200px;
+    //       height: 4px;
+    //       background: #ffd700;
+    //       margin-top: 10px;
+    //     }
+  
+    //     @media screen and (max-width: 1200px) {
+    //       font-size: 36px;
+    //       line-height: 40px;
+    //       margin-left: -25px;
+  
+    //       &:before,
+    //       &:after {
+    //         display: none;
+    //       }
+    //     }
+    //   }
+  
+      p {
+        color: #fff;
+        margin-bottom: 10px;
+        line-height: 1.6;
+  
+        @media screen and (max-width: 1200px) {
+          font-size: 15px;
+        }
+      }
+    }
+  
+    .image-container {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 6px;
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 50px;
+      padding-right: 10%;
+  
+      img {
+        max-width: 100%;
+        height: auto;
+  
+        @media screen and (max-width: 1200px) {
+          width: 100%;
+          margin-left: 20px;
+          padding-right: 0;
+        }
+  
+        @media screen and (max-width: 700px) {
+          width: 393px;
+          margin-top: 389px;
+          margin-left: 31px;
+          margin-right: -6px;
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container {
+      .text-zone {
+        margin-left: 0;
+        width: 100%;
+        left: 0;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 0 auto;
+      }
+    }
+  }
+  
